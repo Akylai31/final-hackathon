@@ -1,0 +1,57 @@
+header :hover{
+    background-color: white;
+}
+.container{
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 48px;
+    display: flex;
+}
+
+.header_logo{
+    width: 765px;
+    padding-top: 10px;
+}
+
+.header_logo img{
+    width: 65px;
+}
+
+.navbar1{
+    width: 1526px;
+}
+
+.navs1{
+    list-style-type: none;
+    display: flex;
+}
+
+
+.navs1 li{
+    /* width: 70px; */
+    align-items: center;
+    margin-right: 35px;
+}
+
+.navbar2{
+    width: 3100px;
+}
+
+.navs2{
+    list-style-type: none;
+    display: flex;
+}
+.navbar_right{
+    width: 763px;
+}
+
+.nav_icons{
+    display: flex;
+    margin-left: 200px;
+}
+
+.nav_icons li{
+    list-style-type: none;
+    width: 40px;
+    margin-right: -10px;
+}
