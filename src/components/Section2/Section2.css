@@ -1,0 +1,29 @@
+.section2{
+    display: flex;
+}
+
+.section_img img{
+    width: 564px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.section_article{
+    padding-left: 20px;
+}
+
+.section_article h2{
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 72px;
+    letter-spacing: -.02em;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.section_article p{
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -.01em;
+    padding-top: 30px;
+}

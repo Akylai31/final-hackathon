@@ -1,57 +1,62 @@
-header :hover{
-    background-color: white;
-}
-.container{
-    padding-left: 24px;
-    padding-right: 24px;
-    height: 48px;
-    display: flex;
+.navbar {
+  
+  min-width: 1263px !important ;
+  background-color: none !important;
+  z-index: 999 !important;
 }
 
-.header_logo{
-    width: 765px;
-    padding-top: 10px;
+.navbar:hover {
+ 
+  background-color: white !important;
+  z-index: 999 !important;
+}
+.container:hover{
+  background-color: white;
+  z-index: 999 !important;
+}
+header:hover{
+  background-color: white;
+  z-index: 999 !important;
+  display: block;
+}
+.btn-profile{
+  position:relative;
+  right: -25px;
+}
+
+.navs1 li{
+  padding-right: 30px;
+}
+
+header{
+  
+  width: 100%;
+}
+.container{
+  margin-left: unset;
+  margin-right: unset;
+  width: 100%;
+
+}
+
+.icons{
+  margin-right: 10px;
 }
 
 .header_logo img{
-    width: 65px;
+  height: 30px;
 }
 
-.navbar1{
-    width: 1526px;
+.navbar1 ul{
+  display: flex;
 }
 
-.navs1{
-    list-style-type: none;
-    display: flex;
-}
-
-
-.navs1 li{
-    /* width: 70px; */
-    align-items: center;
-    margin-right: 35px;
-}
-
-.navbar2{
-    width: 3100px;
-}
-
-.navs2{
-    list-style-type: none;
-    display: flex;
-}
-.navbar_right{
-    width: 763px;
+.navbar1 ul li{
+  /* margin-right: 20px; */
+  list-style-type: none;
 }
 
 .nav_icons{
-    display: flex;
-    margin-left: 200px;
+  display: flex;
 }
 
-.nav_icons li{
-    list-style-type: none;
-    width: 40px;
-    margin-right: -10px;
-}

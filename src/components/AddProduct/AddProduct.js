@@ -14,6 +14,7 @@ const AddProduct = () => {
   const [showAlert, setShowAlert] = useState(false);
   const [showError, setShowError] = useState(false);
   const history = useHistory();
+  
   const useStyles = makeStyles((theme) => ({
     root: {
       "& .MuiTextField-root": {
@@ -46,7 +47,7 @@ const AddProduct = () => {
     img6: "",
     comments: [],
     likes: [],
-    favorites: [],
+    favourites: [],
   });
   const handleValues = (e) => {
     let newProduct = {
@@ -171,6 +172,61 @@ const AddProduct = () => {
         variant="outlined"
         onChange={handleValues}
         value={product.pageLayout}
+      />
+      <br />
+      <TextField
+        id="outlined-multiline-flexible"
+        name="waterproof"
+        label="Waterproof"
+        multiline
+        rowsMax={4}
+        variant="outlined"
+        onChange={handleValues}
+        value={product.waterproof}
+      />
+      <br />
+      <TextField
+        id="outlined-multiline-flexible"
+        name="recyclable"
+        label="Recyclable"
+        multiline
+        rowsMax={4}
+        variant="outlined"
+        onChange={handleValues}
+        value={product.recyclable}
+      />
+      <br />
+      <TextField
+        id="outlined-multiline-flexible"
+        name="friction"
+        label="Friction"
+        multiline
+        rowsMax={4}
+        variant="outlined"
+        onChange={handleValues}
+        value={product.friction}
+      />
+      <br />
+      <TextField
+        id="outlined-multiline-flexible"
+        name="carbon"
+        label="Carbon"
+        multiline
+        rowsMax={4}
+        variant="outlined"
+        onChange={handleValues}
+        value={product.carbon}
+      />
+      <br />
+      <TextField
+        id="outlined-multiline-flexible"
+        name="delivery"
+        label="Delivery"
+        multiline
+        rowsMax={4}
+        variant="outlined"
+        onChange={handleValues}
+        value={product.delivery}
       />
       <br />
       <TextField

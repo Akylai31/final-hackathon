@@ -1,0 +1,11 @@
+.carousel.carousel-slider .control-arrow {
+    background-color: black !important;
+    width: 60px;
+    height: 60px;
+    margin: auto 0;
+  }
+  .carousel {
+    width: 25vw;
+    height: 300px;
+    margin: 20vh 5vw 10vh 19vw;
+  }

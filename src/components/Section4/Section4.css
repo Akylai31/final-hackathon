@@ -1,0 +1,18 @@
+.video2{
+  padding-top: 90px;
+}
+
+.article2{
+  position: absolute;
+  top: 2200px;
+  left: 500px;
+  
+}
+
+.article2 h2{
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 100px;
+  letter-spacing: -.02em;
+  color: white;
+}
