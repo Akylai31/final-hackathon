@@ -2,6 +2,7 @@ import React from 'react';
 import videoSrc from '../../assets/video/video.mp4';
 import './MainScreen.css';
 import Video from 'react-responsive-video';
+import { Link } from "react-router-dom";
 
 const MainScreen = () => {
     return (
@@ -15,7 +16,10 @@ const MainScreen = () => {
         </div>
         <div className="slogan">
             <h2>Shape <br/>Tomorrow</h2>
-            <button className="shop_btn">Shop Now</button>
+            <Link to="/store">
+                <button className="shop_btn">Shop Now</button>
+            </Link>
+            
         </div>
         </>
     );
